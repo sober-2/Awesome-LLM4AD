@@ -1,0 +1,51 @@
+论文名,简称,模态,LLM角色,会议/年份,arXiv链接,负责人,状态,一句话贡献,精读笔记链接,入库PR号,
+Large Language Models for Anomaly and Out-of-Distribution Detection: A Survey,Xu&Ding Survey,综述,综述,NAACL Findings 2025,https://arxiv.org/abs/2409.01980,,待读,"提出 LLM 用于 AD/OOD 的""提示式 vs 对比式""两类范式，并重新定义 LLM 场景下的 AD 与 OOD"，
+Large Language Models for Forecasting and Anomaly Detection: A Systematic Literature Review,Jin Survey,综述,综述,arXiv 2024,https://arxiv.org/abs/2402.10350,,待读,面向预测与异常检测的 LLM 系统文献综述，
+Generalized Out-of-Distribution Detection and Beyond in Vision Language Model Era: A Survey,Miyai Survey,综述,综述,TMLR 2025,https://arxiv.org/abs/2407.21794,,待读,VLM 时代统一 OOD/AD/开放集等概念，提出 Generalized OOD Detection v2，
+"A Survey on RGB, 3D, and Multimodal Approaches for Unsupervised Industrial Anomaly Detection",Zhang Industrial Survey,综述,综述,arXiv 2024,https://arxiv.org/abs/2410.21982,,待读,工业无监督异常检测全面综述，含大模型/提示方法路线，
+Video anomaly detection in 10 years: a survey and outlook,VAD10 Survey,综述,综述,Neural Computing and Applications 2025,https://link.springer.com/article/10.1007/s00521-025-11659-8,,待读,十年视频异常检测综述，覆盖 VLM/MLLM 时代，
+AIOps for log anomaly detection in the era of LLMs: A systematic literature review,AIOps Log Survey,综述,综述,期刊 2025,https://doaj.org/article/621929d04ef04d00b9eeaec97d704916,,待读,LLM 时代日志异常检测的系统文献综述，
+Deep Learning for Anomaly Detection: A Review,Pang Review,综述,背景,ACM Computing Surveys 2021,https://dl.acm.org/doi/10.1145/3439950,,待读,深度异常检测经典综述（背景），
+A Unifying Review of Deep and Shallow Anomaly Detection,Ruff Review,综述,背景,Proceedings of the IEEE 2021,https://doi.org/10.1109/JPROC.2021.3052449,,待读,统一视角的深度/浅层异常检测综述（背景），
+Learning Transferable Visual Models From Natural Language Supervision,CLIP,基础模型,特征提取器/底座,ICML 2021,https://arxiv.org/abs/2103.00020,,待读,对比式图文预训练，零样本异常检测的基石，
+Visual Instruction Tuning,LLaVA,基础模型,多模态代理/底座,NeurIPS 2023,https://arxiv.org/abs/2304.08485,,待读,指令微调 MLLM 的代表，异常理解类方法的常用底座，
+GPT-4V(ision) System Card,GPT-4V,基础模型,多模态代理/底座,2023,https://cdn.openai.com/papers/GPTV_System_Card.pdf,,待读,商用多模态大模型能力与局限的官方说明，
+Gemini: A Family of Highly Capable Multimodal Models,Gemini,基础模型,多模态代理/底座,2023,https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf,,待读,多模态大模型能力参考，
+Detecting Industrial Anomalies using Large Vision-Language Models,AnomalyGPT,工业图像,多模态代理,AAAI 2024,https://arxiv.org/abs/2308.15366,,待读,工业图像级/像素级异常判断 + 自然语言解释的 MLLM 方法，
+Myriad: Large Multimodal Model by Applying Vision Experts for Industrial Anomaly Detection,Myriad,工业图像,数据与知识生成器/多模态代理,arXiv 2023,https://arxiv.org/abs/2310.19070,,待读,用视觉专家生成的异常图引导 LMM 进行检测与描述，
+WinCLIP: Zero-/Few-Shot Anomaly Classification and Segmentation,WinCLIP,工业图像,特征提取器/检测推理器,CVPR 2023,https://arxiv.org/abs/2303.14814,,待读,窗口式 CLIP + 组合提示的零/少样本工业异常检测，
+APRIL-GAN: A Zero-/Few-Shot Anomaly Classification and Segmentation Method for CVPR 2023 VAND Challenge,APRIL-GAN,工业图像,特征提取器,CVPR 2023 VAND 挑战赛,https://arxiv.org/abs/2305.17382,,待读,CLIP 图文对齐 + 记忆库的零/少样本检测分割，
+AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection,AnomalyCLIP,工业图像,特征提取器/检测推理器,ICLR 2024,https://arxiv.org/abs/2310.18961,,待读,学习对象无关的正常/异常提示，跨域零样本检测，
+PromptAD: Learning Prompts with only Normal Samples for Few-Shot Anomaly Detection,PromptAD,工业图像,特征提取器,CVPR 2024,https://arxiv.org/abs/2404.05231,,待读,仅用正常样本学习一分类提示的少样本方法，
+AnomalyR1: A GRPO-based End-to-end MLLM for Industrial Anomaly Detection,AnomalyR1,工业图像,训练优化器/对齐器,arXiv 2025,https://arxiv.org/abs/2504.11914,,待读,GRPO + ROAM 对齐的端到端 MLLM 工业异常检测，代表 RL 方向，
+MMAD: The First-Ever Comprehensive Benchmark for Multimodal Large Language Models in Industrial Anomaly Detection,MMAD,工业图像,评测基准,arXiv 2024,https://arxiv.org/abs/2410.09453,,待读,首个面向工业异常检测的 MLLM 全频谱评测基准，
+Towards Total Recall in Industrial Anomaly Detection,PatchCore,工业图像,背景基线（非 LLM）,CVPR 2022,https://arxiv.org/abs/2106.08265,,待读,经典无监督基线（非 LLM），用作对比，
+Adapting Vision-Language Models for Weakly Supervised Video Anomaly Detection,VadCLIP,视频,特征提取器,AAAI 2024,https://arxiv.org/abs/2308.11681,,待读,冻结 CLIP 的弱监督视频异常检测双分支方法，
+Video Anomaly Detection and Explanation via Large Language Models,VAD-LLaMA,视频,检测推理器/多模态代理,arXiv 2024,https://arxiv.org/abs/2401.05702,,待读,将视频 LLM 引入 VAD 的早期工作，无阈值且可解释，
+Holmes-VAU: Towards Long-term Video Anomaly Understanding at Any Granularity,Holmes-VAU,视频,多模态代理,arXiv 2024,https://arxiv.org/abs/2412.06171,,待读,长视频任意粒度异常理解 + HIVAU-70k 基准，
+ALARM: Automated MLLM-Based Anomaly Detection in Complex-EnviRonment Monitoring with Uncertainty Quantification,ALARM,视频,多模态代理/训练优化器,arXiv 2025,https://arxiv.org/abs/2512.03101,,待读,MLLM 视频异常检测 + 不确定性量化与自反思，
+One Fits All: Power General Time Series Analysis by Pretrained LM,GPT4TS,时间序列,特征提取器,NeurIPS 2023,https://arxiv.org/abs/2302.11939,,待读,冻结 GPT-2 做通用时序分析（含异常检测）的经典框架，
+Time-LLM: Time Series Forecasting by Reprogramming Large Language Models,Time-LLM,时间序列,特征提取器/检测推理器,ICLR 2024,https://arxiv.org/abs/2310.01728,,待读,重编程时序输入激活 LLM 的预测框架（时序方向代表性基础工作），
+Large Language Model Guided Knowledge Distillation for Time Series Anomaly Detection,AnomalyLLM,时间序列,教师模型,arXiv 2024,https://arxiv.org/abs/2401.15123,,待读,首个 LLM 教师蒸馏学生网络的时序异常检测方法，
+LogGPT: Exploring ChatGPT for Log-Based Anomaly Detection,LogGPT,日志,检测推理器,arXiv 2023,https://arxiv.org/abs/2309.01189,,待读,用 ChatGPT 做日志序列异常检测的早期探索，
+Interpretable Online Log Analysis Using Large Language Models with Prompt Strategies,LogPrompt,日志,检测推理器,arXiv 2023,https://arxiv.org/abs/2308.07610,,待读,提示策略驱动的零样本、可解释在线日志分析，
+Owl: A Large Language Model for IT Operations,Owl,日志,检测推理器/基础模型,arXiv 2023,https://arxiv.org/abs/2309.09298,,待读,面向 IT 运维（含日志异常检测）的领域大模型，
+CodeAD: Synthesize Code of Rules for Log-based Anomaly Detection with LLMs,CodeAD,日志,数据与知识生成器,arXiv 2025,https://arxiv.org/abs/2510.22986,,待读,LLM 自动合成轻量可执行检测规则，透明且在线可用，
+Adapting Visual-Language Models for Generalizable Anomaly Detection in Medical Images,MVFA,医学影像,特征提取器/检测推理器,CVPR 2024 Highlight,https://arxiv.org/abs/2403.12570,,待读,多视图特征聚合，让 VLM 适配医学影像可泛化异常检测，
+LLM-Powered Text-Attributed Graph Anomaly Detection via Retrieval-Augmented Reasoning,TAG-AD,图与表格,检测推理器/多模态代理,arXiv 2025,https://arxiv.org/abs/2511.17584,,待读,检索增强推理 + 文本属性图异常节点检测基准与方法，
+AFR-CLIP: Enhancing Zero-Shot Industrial Anomaly Detection with Stateless-to-Stateful Anomaly Feature Rectification,AFR-CLIP,工业图像,特征提取器/检测推理器,arXiv 2025,https://arxiv.org/abs/2503.12910,,待读,通过图像引导的文本修正，将缺陷信息嵌入无状态提示，解决CLIP对齐对象类别而非异常状态的局限，
+AgentIAD: Tool-Augmented Single-Agent for Industrial Anomaly Detection,AgentIAD,工业图像,多模态代理,arXiv 2025,https://arxiv.org/abs/2512.13671,,待读,工具增强的单智能体工业异常检测，自适应调整检测策略，超越AnomalyCLIP等静态提示方法，
+Architectural Co-Design for Zero-Shot Anomaly Detection: Decoupling Representation and Dynamically Fusing Features in CLIP,ACD-CLIP,工业图像,特征提取器,arXiv 2025,https://arxiv.org/abs/2508.07819,,待读,架构协同设计CLIP，解耦表征并动态融合特征，弥补ViT缺乏局部归纳偏置的问题，
+AD-FM: Multimodal LLMs for Anomaly Detection via Multi-Stage Reasoning and Fine-Grained Reward Optimization,AD-FM,工业图像,多模态代理/训练优化器,arXiv 2025,https://arxiv.org/abs/2508.04175,,待读,基于Qwen2.5-VL的多阶段推理+细粒度奖励优化，零样本超越CLIP方法且无需阈值调参，
+CoPS: Conditional Prompt Synthesis for Zero-Shot Anomaly Detection,CoPS,工业图像,特征提取器,arXiv 2025,https://arxiv.org/abs/2506.03660,,待读,条件提示合成，根据输入图像动态生成异常检测提示，提升零样本泛化能力，
+Aligning Effective Tokens with Video Anomaly in Large Language Models,VA-GPT,视频,多模态代理,arXiv 2025,https://arxiv.org/abs/2508.06350,,待读,通过空间有效令牌选择(SETS)和时间有效令牌生成(TETG)，提升视频异常检测的时空定位能力，
+MoniTor: Exploiting Large Language Models with Instruction for Online Video Anomaly Detection,MoniTor,视频,检测推理器,arXiv 2025,https://arxiv.org/abs/2510.21449,,待读,首个免训练的在线视频异常检测方法，利用VLM和指令引导LLM获得异常分数，
+Cerberus: Real-Time Video Anomaly Detection via Cascaded Vision-Language Models,Cerberus,视频,多模态代理,arXiv 2025,https://arxiv.org/abs/2510.16290,,待读,两阶段级联VLM系统，离线学习正常行为规则，在线结合轻量过滤与细粒度VLM推理，实现实时VAD，
+HiProbe-VAD: Video Anomaly Detection via Hidden States Probing in Tuning-Free Multimodal LLMs,HiProbe-VAD,视频,检测推理器,ACM MM 2025,https://arxiv.org/abs/2507.17394,,待读,免微调的多模态LLM视频异常检测，通过探测隐藏状态获取异常信号，
+HyCoVAD: A Hybrid SSL-LLM Model for Complex Video Anomaly Detection,HyCoVAD,视频,多模态代理,arXiv 2025,https://arxiv.org/abs/2509.22544,,待读,混合自监督学习(SSL)与LLM的复杂视频异常检测，SSL建模时空模式+LLM验证语义异常，
+IQE-CLIP: Instance-aware Query Embedding for Zero-/Few-shot Anomaly Detection in Medical Domain,IQE-CLIP,医学影像,特征提取器/检测推理器,arXiv 2025,https://arxiv.org/abs/2506.10730,,待读,实例感知查询嵌入，融合文本与实例视觉信息，面向医学领域零/少样本异常检测，
+Improving Medical Large Vision-Language Models with Abnormal-Aware Feedback,UMed-LVLM,医学影像,多模态代理/训练优化器,arXiv 2025,https://arxiv.org/abs/2501.01377,,待读,通过异常感知反馈训练医学大视觉语言模型，提升医学影像异常区域定位能力，
+Normal and Abnormal Pathology Knowledge-Augmented Vision-Language Model for Anomaly Detection in Pathology Images,PathVLM,医学影像,特征提取器,arXiv 2025,https://arxiv.org/abs/2508.15256,,待读,正常/异常病理知识增强的视觉语言模型，用于病理图像异常检测，提供文本可解释性，
+Contrastive Language Prompting to Ease False Positives in Medical Anomaly Detection,CLP-MAD,医学影像,特征提取器,arXiv 2024,https://arxiv.org/abs/2411.07546,,待读,对比语言提示减少医学异常检测中的假阳性，结合修复重建实现无监督异常检测，
+Enhancing Abnormality Grounding for Vision Language Models with Knowledge Descriptions,KnowGround,医学影像,多模态代理,arXiv 2025,https://arxiv.org/abs/2503.03278,,待读,利用分解医学知识描述增强VLM在医学异常检测与定位中的表现，
+Self-Supervised Text-Vision Alignment for Automated Brain MRI Abnormality Detection: A Multicenter Study (ALIGN Study),ALIGN,医学影像,特征提取器,Radiographics 2025,https://pubs.rsna.org/radiographics/doi/full/10.1148/ryai.240619,,待读,自监督文本-视觉对齐用于脑MRI异常自动检测，多中心研究验证，
